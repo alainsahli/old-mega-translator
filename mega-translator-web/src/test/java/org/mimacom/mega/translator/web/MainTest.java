@@ -7,7 +7,7 @@ import static junit.framework.Assert.assertEquals;
 
 public class MainTest {
 	@Test
-	public void testTestMe() throws Exception {
+	public void testTestMe() {
 		Main main = new Main();
 		int i = main.testMe(10);
 		assertEquals(10, i);

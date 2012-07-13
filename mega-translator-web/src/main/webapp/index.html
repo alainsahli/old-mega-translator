@@ -9,6 +9,7 @@
     
         <!-- Le styles -->
         <link href="resources/css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resources\css\main.css"/>
         <style type="text/css">
             body {
                 padding-top: 60px;
@@ -21,7 +22,13 @@
         <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-    
+
+        <!-- jQuery libs -->
+        <script src="lib/jquery/jquery-1.7.2.js"></script>
+        <script src="lib/jquery/plugin/filedrop.js"></script>
+
+        <script src="resources/js/upload.js"></script>
+
         <!-- Le fav and touch icons -->
         <link rel="shortcut icon" href="resources/ico/favicon.ico">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="resources/ico/apple-touch-icon-144-precomposed.png">
@@ -59,7 +66,11 @@
             <!-- Main hero unit for a primary marketing message or call to action -->
             <div class="hero-unit">
                 <h1>Translate it!</h1>
-                <p>Just upload your default i18n propertie file to start the translation.</p>
+                <p>Just drag your i18n properties file to start the translation.</p>
+                <div id="dropzone">
+                    <p class="dropzone-text">Dropzone...</p>
+                </div>
+                <input type="file" id="fallback_uploader" />
             </div>
 
             <hr>

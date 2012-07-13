@@ -1,0 +1,11 @@
+#dropzone {
+    width: 350px;
+    height: 150px;
+    vertical-align: middle;
+    border: 3px dashed #080808;
+}
+
+.dropzone-text {
+    font-size: 25px;
+    text-align: center;
+}
