@@ -1,7 +1,7 @@
 $(function () {
     $('#dropzone').filedrop({
-        url:'@Url.Action("UploadFiles")',
-        paramname:'files',
+        url:'/translation/upload',
+        paramname:'file',
         maxFiles:5,
         dragOver:function () {
             $('#dropzone').css('background', 'blue');
@@ -17,6 +17,7 @@ $(function () {
             $('#dropzone').html('The file(s) have been uploaded successfully!');
         },
         uploadFinished:function (i, file, response, time) {
+            alert('Uploaded: ' + file.name)
             $('#uploadResult').append('<li>' + file.name + '</li>');
         }
     });

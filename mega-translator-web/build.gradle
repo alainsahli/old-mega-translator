@@ -1,5 +1,8 @@
 apply plugin: 'war'
 
 dependencies {
-    compile libraries.springWebServlet
+    compile (libraries.springWebServlet) {
+        exclude module: "commons-logging:commons-logging"
+    }
+    runtime libraries.cglib
 }

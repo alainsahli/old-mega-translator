@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mega-translator-web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/mega_translator_web_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mega-translator-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/org.springframework.web.servlet/3.1.1.RELEASE/jar/6ae6968aa19f6d25cdcd38213046e11cc5189e84/org.springframework.web.servlet-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/org.springframework.core/3.1.1.RELEASE/jar/419e9233c8d55f64a0c524bb94c3ba87e51e7d95/org.springframework.core-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/org.springframework.asm/3.1.1.RELEASE/jar/8717ad8947fcada5c55da89eb474bf053c30e57/org.springframework.asm-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/org.springframework.beans/3.1.1.RELEASE/jar/83d0e5adc98714783f0fb7d8a5e97ef4cf08da49/org.springframework.beans-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/org.springframework.expression/3.1.1.RELEASE/jar/1486d7787ec4ff8da8cbf8752d30e4c808412b3f/org.springframework.expression-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.aopalliance/com.springsource.org.aopalliance/1.0.0/jar/386c79a41560b4bbb6015fdff45413f665fc5c96/com.springsource.org.aopalliance-1.0.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/org.springframework.aop/3.1.1.RELEASE/jar/3c86058cdaea30df35e4b951a615e09eb07da589/org.springframework.aop-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/org.springframework.context/3.1.1.RELEASE/jar/ecb0784a0712c1bfbc1c2018eeef6776861300e4/org.springframework.context-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/org.springframework.context.support/3.1.1.RELEASE/jar/fc5de9fead1e54054298d37b196f9cd64ced19bf/org.springframework.context.support-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/org.springframework.web/3.1.1.RELEASE/jar/7b18bbab94119e8ae322e8599c067c4f4b3701f6/org.springframework.web-3.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.slf4j/jcl-over-slf4j/1.6.6/jar/ec497945fdcaf7fd970ae9931b9bbfaf735d385e/jcl-over-slf4j-1.6.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/log4j/log4j/1.2.17/bundle/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-api/1.6.6/jar/ce53b0a0e2cfbb27e8a59d38f79a18a5c6a8d2b0/slf4j-api-1.6.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-log4j12/1.6.6/jar/5cd9b4fbc3ff6a97beaade3206137d76f65df805/slf4j-log4j12-1.6.6.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/asm/asm/3.3.1/jar/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/cglib/cglib/2.2.2/jar/a47a971686474124562bdd4a7ccbd8ac8c3e8b11/cglib-2.2.2.jar" />
+        </element>
+        <element id="dir-copy" path="$PROJECT_DIR$/mega-translator-web/src/main/webapp/WEB-INF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mega-translator-web/web/Web" />
+    </root>
+  </artifact>
+</component>
