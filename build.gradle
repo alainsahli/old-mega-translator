@@ -1,0 +1,43 @@
+libraries = [
+        junit: "junit:junit:4.10",
+        springWebServlet: "org.springframework:org.springframework.web.servlet:3.1.1.RELEASE",
+        jclOverSlf4j: "org.slf4j:jcl-over-slf4j:1.6.6",
+        slf4jApi: "org.slf4j:slf4j-api:1.6.6",
+        slf4jLog4j12: "org.slf4j:slf4j-log4j12:1.6.6",
+        log4j: "log4j:log4j:1.2.17",
+        cglib: "cglib:cglib:2.2.2"
+]
+
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'idea'
+}
+
+subprojects {
+    group = 'org.mimacom.mega.translator'
+
+    repositories {
+        maven {
+            url 'http://repo.mimacom.org/content/groups/mimacom-public/'
+        }
+        maven {
+            credentials {
+                username "${project.getProperty('mimacomPrivateRepoUsername')}"
+                password "${project.getProperty('mimacomPrivateRepoPassword')}"
+            }
+            url 'http://repo.mimacom.org/content/groups/mimacom-private/'
+        }
+    }
+
+    dependencies {
+        testCompile libraries.junit
+        runtime libraries.jclOverSlf4j
+        runtime libraries.slf4jApi
+        runtime libraries.slf4jLog4j12
+        runtime libraries.log4j
+    }
+
+    jar {
+        manifest.attributes provider: 'mimacom ag'
+    }
+}
