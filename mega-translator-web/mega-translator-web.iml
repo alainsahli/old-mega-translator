@@ -50,6 +50,17 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.apache.tomcat/tomcat-servlet-api/7.0.29/jar/95da8b717877ed7641a90999a6c90a0597e3311b/tomcat-servlet-api-7.0.29.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.apache.tomcat/tomcat-servlet-api/7.0.29/source/1371d5114f539b28fd264134e4e9ae59a5036bdd/tomcat-servlet-api-7.0.29-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
           <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/org.springframework.core/3.1.1.RELEASE/jar/419e9233c8d55f64a0c524bb94c3ba87e51e7d95/org.springframework.core-3.1.1.RELEASE.jar!/" />
         </CLASSES>
         <JAVADOC />
