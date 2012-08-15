@@ -5,6 +5,7 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="mega-translator-web" />
+          <element id="module-output" name="mega-translator-service" />
         </element>
         <element id="directory" name="lib">
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/org.springframework.web.servlet/3.1.1.RELEASE/jar/6ae6968aa19f6d25cdcd38213046e11cc5189e84/org.springframework.web.servlet-3.1.1.RELEASE.jar" />
@@ -23,6 +24,34 @@
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-log4j12/1.6.6/jar/5cd9b4fbc3ff6a97beaade3206137d76f65df805/slf4j-log4j12-1.6.6.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/asm/asm/3.3.1/jar/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/cglib/cglib/2.2.2/jar/a47a971686474124562bdd4a7ccbd8ac8c3e8b11/cglib-2.2.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/aopalliance/aopalliance/1.0/jar/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.aspectj/aspectjrt/1.6.11/jar/70afce58891e5f0566a968288c93120b977e3bd0/aspectjrt-1.6.11.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.aspectj/aspectjweaver/1.6.11/jar/cfaf505d1029b4353cc0b6fae5818dcdd7c58e86/aspectjweaver-1.6.11.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/commons-beanutils/commons-beanutils/1.8.3/jar/686ef3410bcf4ab8ce7fd0b899e832aaba5facf7/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/commons-lang/commons-lang/2.5/jar/b0236b252e86419eef20c31a44579d2aee2f0a69/commons-lang-2.5.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/net.sf.dozer/dozer/5.3.2/jar/fb10fbcb72f936c1eecb195ba279df4e52bcabb0/dozer-5.3.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.mimacom.component.glume/glume-core/2.0.1/jar/99cf82dbab67622c73dbebc20057a37630ffeec9/glume-core-2.0.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.hibernate/hibernate-validator/4.1.0.Final/jar/785cceeb0b0dbd03367f45cd60eb26cd48167640/hibernate-validator-4.1.0.Final.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/javax.inject/javax.inject/1/jar/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/javax.persistence/2.0.2/jar/aecef7e4b82fe10861fcd3dc6971063ade4d79ec/javax.persistence-2.0.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.slf4j/jcl-over-slf4j/1.6.1/jar/99c61095a14dfc9e47a086068033c286bf236475/jcl-over-slf4j-1.6.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/log4j/log4j/1.2.16/bundle/7999a63bfccbc7c247a9aea10d83d4272bd492c6/log4j-1.2.16.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.antlr/2.2.0/jar/16fe695dff682564aa7be56465c549b94df637df/org.eclipse.persistence.antlr-2.2.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.asm/2.2.0/jar/75f240223dc915f1e0e56e870c8f5a378c455ede/org.eclipse.persistence.asm-2.2.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.core/2.2.0/jar/29deb7f37667ed8c62bcba69f847bc578f53f3a0/org.eclipse.persistence.core-2.2.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.jpa/2.2.0/jar/d7314e2c9a83aabb84b746fa31f988338f2f59dc/org.eclipse.persistence.jpa-2.2.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-api/1.6.1/jar/6f3b8a24bf970f17289b234284c94f43eb42f0e4/slf4j-api-1.6.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-log4j12/1.6.1/jar/bd245d6746cdd4e6203e976e21d597a46f115802/slf4j-log4j12-1.6.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-aop/3.0.5.RELEASE/jar/c7a17803cc10512e26e285073639543f0c7c764/spring-aop-3.0.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-asm/3.0.5.RELEASE/jar/7f22a0e9f325e6565b4ea56b479ad76311d146b/spring-asm-3.0.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-beans/3.0.5.RELEASE/jar/4b352a9c3b427294e264ca4d460d07417ca9350e/spring-beans-3.0.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-context/3.0.5.RELEASE/jar/6b05e397566cc7750d2d25f81a7441fe1aeecb75/spring-context-3.0.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-core/3.0.5.RELEASE/jar/1633e94943d57746ef76910489f1cd71fe667e04/spring-core-3.0.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-expression/3.0.5.RELEASE/jar/5b8e53877cb58c94f15a0d8172da3569f4b4f3fb/spring-expression-3.0.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-jdbc/3.0.5.RELEASE/jar/2af0bad1d8d681ed2e014b684287acc448ab30cb/spring-jdbc-3.0.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-orm/3.0.5.RELEASE/jar/cff2c955d1a510bab6e1eb2d1ced309f6ec37ce9/spring-orm-3.0.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-tx/3.0.5.RELEASE/jar/91eb9bd9baa61a62590a8093667107cb2c7c8184/spring-tx-3.0.5.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/javax.validation/validation-api/1.0.0.GA/jar/b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e/validation-api-1.0.0.GA.jar" />
         </element>
         <element id="dir-copy" path="$PROJECT_DIR$/mega-translator-web/src/main/webapp/WEB-INF" />
       </element>

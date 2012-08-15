@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/mega-translator-domain/mega-translator-domain.iml" filepath="$PROJECT_DIR$/mega-translator-domain/mega-translator-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mega-translator-service/mega-translator-service.iml" filepath="$PROJECT_DIR$/mega-translator-service/mega-translator-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mega-translator-web/mega-translator-web.iml" filepath="$PROJECT_DIR$/mega-translator-web/mega-translator-web.iml" />
     </modules>
   </component>

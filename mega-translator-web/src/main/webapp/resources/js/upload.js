@@ -2,7 +2,10 @@ $(function () {
     $('#dropzone').filedrop({
         url:'/translation/upload',
         paramname:'file',
-        maxFiles:5,
+        data: {
+            fileSetId: uniqueId()
+        },
+        maxFiles: 25,
         dragOver:function () {
             $('#dropzone').css('background', 'blue');
         },
@@ -15,10 +18,12 @@ $(function () {
         afterAll:function () {
             alert('afterAll');
             $('#dropzone').html('The file(s) have been uploaded successfully!');
-        },
-        uploadFinished:function (i, file, response, time) {
-            alert('Uploaded: ' + file.name)
-            $('#uploadResult').append('<li>' + file.name + '</li>');
         }
     });
 });
+
+function uniqueId() {
+    var date = new Date;
+    var uniqueId = date.getTime() * Math.random();
+    return uniqueId;
+}

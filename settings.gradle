@@ -1,1 +1,2 @@
+include "mega-translator-service"
 include "mega-translator-web"

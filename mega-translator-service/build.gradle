@@ -1,0 +1,3 @@
+dependencies {
+    compile('org.mimacom.component.glume:glume-core:2.0.1')
+}

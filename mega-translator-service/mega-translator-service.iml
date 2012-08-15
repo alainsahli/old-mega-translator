@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" isTestSource="true"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    </content>
+    <orderEntry type="inheritedJdk"/>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.mimacom.component.glume/glume-core/2.0.1/jar/99cf82dbab67622c73dbebc20057a37630ffeec9/glume-core-2.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.mimacom.component.glume/glume-core/2.0.1/source/9f53b775a908c00d95595afb1b6114a5ccd9f4e3/glume-core-2.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-asm/3.0.5.RELEASE/jar/7f22a0e9f325e6565b4ea56b479ad76311d146b/spring-asm-3.0.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-asm/3.0.5.RELEASE/source/a7af48d717c27d3e24c3b91f2ee7db071580bc5c/spring-asm-3.0.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-core/3.0.5.RELEASE/jar/1633e94943d57746ef76910489f1cd71fe667e04/spring-core-3.0.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-core/3.0.5.RELEASE/source/5e85a2d0d58fe27604eb447170e877e408a28ead/spring-core-3.0.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-beans/3.0.5.RELEASE/jar/4b352a9c3b427294e264ca4d460d07417ca9350e/spring-beans-3.0.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-beans/3.0.5.RELEASE/source/701dc97fbe8a80d3f1d5147f747a78f0332440ec/spring-beans-3.0.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/aopalliance/aopalliance/1.0/jar/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/aopalliance/aopalliance/1.0/source/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-aop/3.0.5.RELEASE/jar/c7a17803cc10512e26e285073639543f0c7c764/spring-aop-3.0.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-aop/3.0.5.RELEASE/source/b3cb2378715a780add6fecf9d316fb899c153adb/spring-aop-3.0.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-expression/3.0.5.RELEASE/jar/5b8e53877cb58c94f15a0d8172da3569f4b4f3fb/spring-expression-3.0.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-expression/3.0.5.RELEASE/source/48ed82e050e351f5272c67a0c397c4e06f8a6a6d/spring-expression-3.0.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-context/3.0.5.RELEASE/jar/6b05e397566cc7750d2d25f81a7441fe1aeecb75/spring-context-3.0.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-context/3.0.5.RELEASE/source/b1f911a36626dc3e134a63fba5f724d5b29c9589/spring-context-3.0.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-tx/3.0.5.RELEASE/jar/91eb9bd9baa61a62590a8093667107cb2c7c8184/spring-tx-3.0.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-tx/3.0.5.RELEASE/source/20aa826b3884f6d0ddce2e0fca20b160f8ccf3f9/spring-tx-3.0.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-jdbc/3.0.5.RELEASE/jar/2af0bad1d8d681ed2e014b684287acc448ab30cb/spring-jdbc-3.0.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-jdbc/3.0.5.RELEASE/source/c8ac8ff6f389f6d249f51ed0a266fd811537af9f/spring-jdbc-3.0.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-orm/3.0.5.RELEASE/jar/cff2c955d1a510bab6e1eb2d1ced309f6ec37ce9/spring-orm-3.0.5.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.springframework/spring-orm/3.0.5.RELEASE/source/7514e501c926fc793fb0214c7d4567021091e77d/spring-orm-3.0.5.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/javax.persistence/2.0.2/jar/aecef7e4b82fe10861fcd3dc6971063ade4d79ec/javax.persistence-2.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/javax.persistence/2.0.2/source/804aea3d8c6053c736587f8b592c0302674cab85/javax.persistence-2.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.asm/2.2.0/jar/75f240223dc915f1e0e56e870c8f5a378c455ede/org.eclipse.persistence.asm-2.2.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.asm/2.2.0/source/48e30b0185f6f7d8ee0016f16014a454a80e1afb/org.eclipse.persistence.asm-2.2.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.antlr/2.2.0/jar/16fe695dff682564aa7be56465c549b94df637df/org.eclipse.persistence.antlr-2.2.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.antlr/2.2.0/source/2a00f796d927f4bb8690b80c8d8ab8abb45c021b/org.eclipse.persistence.antlr-2.2.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.core/2.2.0/jar/29deb7f37667ed8c62bcba69f847bc578f53f3a0/org.eclipse.persistence.core-2.2.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.core/2.2.0/source/44cdc8bbf453dfade3e13988ad8f0401f8c3bf00/org.eclipse.persistence.core-2.2.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.jpa/2.2.0/jar/d7314e2c9a83aabb84b746fa31f988338f2f59dc/org.eclipse.persistence.jpa-2.2.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.jpa/2.2.0/source/e141c7c72be57cc320e5463119644d373df79c23/org.eclipse.persistence.jpa-2.2.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/javax.inject/javax.inject/1/jar/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/javax.inject/javax.inject/1/source/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.aspectj/aspectjrt/1.6.11/jar/70afce58891e5f0566a968288c93120b977e3bd0/aspectjrt-1.6.11.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.aspectj/aspectjrt/1.6.11/source/100ff971fce2ac290169a769cc4f8cebc0e6c8d8/aspectjrt-1.6.11-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.aspectj/aspectjweaver/1.6.11/jar/cfaf505d1029b4353cc0b6fae5818dcdd7c58e86/aspectjweaver-1.6.11.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.aspectj/aspectjweaver/1.6.11/source/47b2e405580228710fe9da46f073a459845ab702/aspectjweaver-1.6.11-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-api/1.6.1/jar/6f3b8a24bf970f17289b234284c94f43eb42f0e4/slf4j-api-1.6.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-api/1.6.1/source/46a386136c901748e6a3af67ebde6c22bc6b4524/slf4j-api-1.6.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/commons-beanutils/commons-beanutils/1.8.3/jar/686ef3410bcf4ab8ce7fd0b899e832aaba5facf7/commons-beanutils-1.8.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/commons-beanutils/commons-beanutils/1.8.3/source/170d03db4cb48be2f8f35ce3243d62c4b2204e2e/commons-beanutils-1.8.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/commons-lang/commons-lang/2.5/jar/b0236b252e86419eef20c31a44579d2aee2f0a69/commons-lang-2.5.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/commons-lang/commons-lang/2.5/source/bb75ef699b349b6e02d17d41556cebcd755d07ab/commons-lang-2.5-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/net.sf.dozer/dozer/5.3.2/jar/fb10fbcb72f936c1eecb195ba279df4e52bcabb0/dozer-5.3.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/net.sf.dozer/dozer/5.3.2/source/c868594dc502cbaf1ad1630de672918ee3a8d5a0/dozer-5.3.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.slf4j/jcl-over-slf4j/1.6.1/jar/99c61095a14dfc9e47a086068033c286bf236475/jcl-over-slf4j-1.6.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.slf4j/jcl-over-slf4j/1.6.1/source/dbc80dfd897e3bc528199ff97e29e44a0ac4b462/jcl-over-slf4j-1.6.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/log4j/log4j/1.2.16/bundle/7999a63bfccbc7c247a9aea10d83d4272bd492c6/log4j-1.2.16.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/log4j/log4j/1.2.16/source/bf945d1dc995be7fe64923625f842fbb6bf443be/log4j-1.2.16-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-log4j12/1.6.1/jar/bd245d6746cdd4e6203e976e21d597a46f115802/slf4j-log4j12-1.6.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-log4j12/1.6.1/source/7a26b08b265f55622fa1fed3bda68bbd37a465ba/slf4j-log4j12-1.6.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/javax.validation/validation-api/1.0.0.GA/jar/b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e/validation-api-1.0.0.GA.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/javax.validation/validation-api/1.0.0.GA/source/7a561191db2203550fbfa40d534d4997624cd369/validation-api-1.0.0.GA-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.hibernate/hibernate-validator/4.1.0.Final/jar/785cceeb0b0dbd03367f45cd60eb26cd48167640/hibernate-validator-4.1.0.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.hibernate/hibernate-validator/4.1.0.Final/source/5aedf89618da0bfd96c6ebb9ff88cb1876500d17/hibernate-validator-4.1.0.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.slf4j/jcl-over-slf4j/1.6.6/jar/ec497945fdcaf7fd970ae9931b9bbfaf735d385e/jcl-over-slf4j-1.6.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.slf4j/jcl-over-slf4j/1.6.6/source/af49a543ee3e7a51a7fb66ba2d940f43d56408f6/jcl-over-slf4j-1.6.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-api/1.6.6/jar/ce53b0a0e2cfbb27e8a59d38f79a18a5c6a8d2b0/slf4j-api-1.6.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-api/1.6.6/source/bcd0e21b1572960cefd449f8a16efab5b6b8e644/slf4j-api-1.6.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-log4j12/1.6.6/jar/5cd9b4fbc3ff6a97beaade3206137d76f65df805/slf4j-log4j12-1.6.6.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.slf4j/slf4j-log4j12/1.6.6/source/497bfac9a678118e7ff75d1f3b8c3bcc06dc9c8c/slf4j-log4j12-1.6.6-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/log4j/log4j/1.2.17/bundle/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/log4j/log4j/1.2.17/source/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/junit/junit/4.10/jar/e4f1766ce7404a08f45d859fb9c226fc9e41a861/junit-4.10.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/junit/junit/4.10/source/6c98d6766e72d5575f96c9479d1c1d3b865c6e25/junit-4.10-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.hamcrest/hamcrest-core/1.1/jar/860340562250678d1a344907ac75754e259cdb14/hamcrest-core-1.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar://C:/Users/alsa.MIMACOM/.gradle/caches/artifacts-13/filestore/org.hamcrest/hamcrest-core/1.1/source/2ccf1154d1a8936042a8a742dc3e611d02ac7213/hamcrest-core-1.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
