@@ -2,6 +2,7 @@
 /build/*
 /out/*
 /apache-tomcat-7.0.29/*
+/store/*
 .idea/workspace.xml
 mega-translator.ipr
 mega-translator.iws

@@ -10,12 +10,6 @@
 						http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
 
     <!-- *** Annotation Scanning *** -->
-    <context:component-scan base-package="org.mimacom.mega.translator.service"
-                            use-default-filters="false"
-                            name-generator="org.mimacom.component.glume.core.stereotype.support.StereotypeBeanNameGenerator">
-        <!-- allow intellij to detect custom stereotypes -->
-        <context:include-filter type="annotation" expression="org.mimacom.component.glume.core.stereotype.Component" />
-        <context:include-filter type="annotation" expression="org.mimacom.component.glume.core.stereotype.Service"/>
-        <context:include-filter type="annotation" expression="org.mimacom.component.glume.core.stereotype.Repository"/>
-    </context:component-scan>
+    <context:component-scan base-package="org.mimacom.mega.translator.service" />
+
 </beans>

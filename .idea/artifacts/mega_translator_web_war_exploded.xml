@@ -52,6 +52,16 @@
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-orm/3.0.5.RELEASE/jar/cff2c955d1a510bab6e1eb2d1ced309f6ec37ce9/spring-orm-3.0.5.RELEASE.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-tx/3.0.5.RELEASE/jar/91eb9bd9baa61a62590a8093667107cb2c7c8184/spring-tx-3.0.5.RELEASE.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/javax.validation/validation-api/1.0.0.GA/jar/b6bd7f9d78f6fdaa3c37dae18a4bd298915f328e/validation-api-1.0.0.GA.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/com.google.guava/guava-base/r03/jar/251db72895ba5745e6810334075095832f12f437/guava-base-r03.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-context/3.2.0.M1/jar/5e049c79b16a1dc3e47eb726fa2317357f3be97b/spring-context-3.2.0.M1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/com.google.guava/guava-io/r03/jar/5cef96afc6495f352bb0af10d11f068fa46e1e29/guava-io-r03.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-asm/3.2.0.M1/jar/4a0ea87174b937bde6a82f5233663910964a29ae/spring-asm-3.2.0.M1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-core/3.2.0.M1/jar/2a583f83d0baa163bab7766ee42fe0fd650ed5b8/spring-core-3.2.0.M1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-beans/3.2.0.M1/jar/c1112f071bc632eddeaaf73044a71e6efbdbfb60/spring-beans-3.2.0.M1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-aop/3.2.0.M1/jar/9bb032b78ae3433f676bc2995ce4aba6c708c967/spring-aop-3.2.0.M1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-expression/3.2.0.M1/jar/913bdf13b0a13128c8ef33cc417a315192a63ceb/spring-expression-3.2.0.M1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/com.google.guava/guava-annotations/r03/jar/4898719420a0e946ad0772c5c2c61111999c78c2/guava-annotations-r03.jar" />
         </element>
         <element id="dir-copy" path="$PROJECT_DIR$/mega-translator-web/src/main/webapp/WEB-INF" />
       </element>

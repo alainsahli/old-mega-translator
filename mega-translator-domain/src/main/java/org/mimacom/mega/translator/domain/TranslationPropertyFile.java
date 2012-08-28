@@ -5,8 +5,14 @@ import java.util.Map;
 
 public class TranslationPropertyFile {
 
+
 	private String fileName;
 	private Map<String, String> properties = new LinkedHashMap<String, String>();
+
+	public TranslationPropertyFile(String fileName, Map<String, String> properties) {
+		this.fileName = fileName;
+		this.properties = properties;
+	}
 
 	public String getFileName() {
 		return fileName;
@@ -22,5 +28,10 @@ public class TranslationPropertyFile {
 
 	public void setProperties(Map<String, String> properties) {
 		this.properties = properties;
+	}
+
+	@Override
+	public String toString() {
+		return fileName;
 	}
 }

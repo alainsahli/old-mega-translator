@@ -1,13 +1,14 @@
 package org.mimacom.mega.translator.service;
 
-import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 
 public interface TranslationFileService {
 
 	/**
 	 * Adds a new translation
-	 * @param translationFile the translation file
-	 * @param fileSetId the set ID to which the file belongs
+	 * @param fileName
+	 * @param translationFileInputStream
 	 */
-	void addTranslationFile(File translationFile, String fileSetId);
+	void addTranslationFile(String fileName, InputStream translationFileInputStream) throws IOException;
 }

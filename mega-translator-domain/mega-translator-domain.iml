@@ -8,6 +8,28 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/com.google.guava/guava-base/r03/jar/251db72895ba5745e6810334075095832f12f437/guava-base-r03.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/com.google.guava/guava-base/r03/source/1a7522a971f054a37595625a81b7cfc78fd7d529/guava-base-r03-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/com.google.guava/guava-io/r03/jar/5cef96afc6495f352bb0af10d11f068fa46e1e29/guava-io-r03.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-13/filestore/com.google.guava/guava-io/r03/source/741d6087802e5341ae51c4d280cfc0600833045e/guava-io-r03-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
 
