@@ -2,6 +2,7 @@ package org.mimacom.mega.translator.web.controllers;
 
 import org.apache.catalina.core.ApplicationPart;
 import org.mimacom.mega.translator.service.TranslationFileService;
+import org.mimacom.mega.translator.service.internal.TranslationFileDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -25,22 +26,22 @@ public class TranslationController {
 
 	@RequestMapping(value = "/upload", method = RequestMethod.POST)
 	@ResponseBody
-	public String handlePropertyFileUpload(@RequestParam("file") Part file, @RequestParam("fileSetId") String fileSetId) {
+	public TranslationFileDetails handlePropertyFileUpload(@RequestParam("file") Part file) {
 		ApplicationPart applicationPart = null;
 		if (file instanceof ApplicationPart) {
 			 applicationPart = (ApplicationPart) file;
 		} else {
-			return "wrong application server";
+			return new TranslationFileDetails(false, "wrong application server");
 		}
 		if (!(file.getSize() == 0)) {
 			try {
 				translationFileService.addTranslationFile(applicationPart.getFilename(), applicationPart.getInputStream());
 			} catch (IOException e) {
-				return "error";
+				return new TranslationFileDetails(false, "error");
 			}
-			return "File is not empty!";
+			return new TranslationFileDetails(true, "File is not empty!");
 		} else {
-			return "File is empty!";
+			return new TranslationFileDetails(true, "File is empty!");
 		}
 	}
 }

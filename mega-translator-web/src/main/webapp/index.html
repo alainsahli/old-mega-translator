@@ -25,8 +25,11 @@
         <!-- jQuery libs -->
         <script src="lib/jquery/jquery-1.7.2.js"></script>
         <script src="lib/jquery/plugin/filedrop.js"></script>
-
         <script src="resources/js/upload.js"></script>
+
+        <!-- AngularJS stuff -->
+        <script type="text/javascript" src="lib/angular/angular-1.0.2.min.js"></script>
+        <script type="text/javascript" src="resources/js/controller/TranslationController.js"></script>
 
         <!-- Le fav and touch icons -->
         <link rel="shortcut icon" href="resources/ico/favicon.ico">
@@ -38,8 +41,7 @@
         <link rel="stylesheet" type="text/css" href="resources/css/main.css"/>
     </head>
 
-    <body>
-
+    <body ng-app>
         <div class="navbar navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container">
@@ -65,7 +67,7 @@
         <div class="container">
 
             <!-- Main hero unit for a primary marketing message or call to action -->
-            <div class="hero-unit">
+            <div class="hero-unit" ng-controller="TranslationController">
                 <h1>Translate it!</h1>
                 <p>Just drag your i18n properties file to start the translation.</p>
                 <div id="dropzone">

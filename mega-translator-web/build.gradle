@@ -1,11 +1,19 @@
 apply plugin: 'war'
 
+idea.module {
+    scopes.PROVIDED.plus += configurations.providedCompile
+    scopes.PROVIDED.plus += configurations.providedRuntime
+    scopes.COMPILE.minus += configurations.providedCompile
+    scopes.RUNTIME.minus += configurations.providedRuntime
+}
+
 dependencies {
     compile project(':mega-translator-service')
-    compile ("org.springframework:org.springframework.web.servlet:3.1.1.RELEASE") {
-        exclude module: "commons-logging:commons-logging"
+    compile ('org.springframework:org.springframework.web.servlet:3.1.1.RELEASE') {
+        exclude(group: 'commons-logging', module: 'commons-logging')
     }
-    compile ('log4j:log4j:1.2.17')
-    runtime "cglib:cglib:2.2.2"
-    providedCompile "org.apache.tomcat:tomcat-servlet-api:7.0.29"
+    runtime ('org.codehaus.jackson:jackson-mapper-asl:1.9.9')
+    runtime ('cglib:cglib:2.2.2')
+    providedCompile ('org.apache.tomcat:tomcat-servlet-api:7.0.29')
+    providedCompile ('org.apache.tomcat:tomcat-catalina:7.0.29')
 }

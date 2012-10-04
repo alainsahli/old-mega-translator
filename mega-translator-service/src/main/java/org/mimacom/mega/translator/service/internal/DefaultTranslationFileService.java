@@ -31,6 +31,11 @@ public class DefaultTranslationFileService implements TranslationFileService {
 
 	@Override
 	public void addTranslationFile(String fileName, InputStream translationFileInputStream) throws IOException {
+		Map<String, String> properties = analyzeAndStore(fileName, translationFileInputStream);
+
+	}
+
+	private Map<String, String> analyzeAndStore(String fileName, InputStream translationFileInputStream) {
 		File tempFile = null;
 		BufferedWriter bw = null;
 		Scanner scanner = null;
@@ -59,6 +64,8 @@ public class DefaultTranslationFileService implements TranslationFileService {
 			} else {
 				// TODO handle this case
 			}
+
+			return properties;
 
 		} catch (NoSuchAlgorithmException e) {
 			throw new IllegalStateException("The hashkey of the given file couldn't be computed.", e);

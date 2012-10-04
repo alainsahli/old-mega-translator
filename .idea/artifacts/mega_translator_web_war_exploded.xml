@@ -34,7 +34,6 @@
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.hibernate/hibernate-validator/4.1.0.Final/jar/785cceeb0b0dbd03367f45cd60eb26cd48167640/hibernate-validator-4.1.0.Final.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/javax.inject/javax.inject/1/jar/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/javax.persistence/2.0.2/jar/aecef7e4b82fe10861fcd3dc6971063ade4d79ec/javax.persistence-2.0.2.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.slf4j/jcl-over-slf4j/1.6.1/jar/99c61095a14dfc9e47a086068033c286bf236475/jcl-over-slf4j-1.6.1.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/log4j/log4j/1.2.16/bundle/7999a63bfccbc7c247a9aea10d83d4272bd492c6/log4j-1.2.16.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.antlr/2.2.0/jar/16fe695dff682564aa7be56465c549b94df637df/org.eclipse.persistence.antlr-2.2.0.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.eclipse.persistence/org.eclipse.persistence.asm/2.2.0/jar/75f240223dc915f1e0e56e870c8f5a378c455ede/org.eclipse.persistence.asm-2.2.0.jar" />
@@ -55,13 +54,14 @@
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/com.google.guava/guava-base/r03/jar/251db72895ba5745e6810334075095832f12f437/guava-base-r03.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-context/3.2.0.M1/jar/5e049c79b16a1dc3e47eb726fa2317357f3be97b/spring-context-3.2.0.M1.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/com.google.guava/guava-io/r03/jar/5cef96afc6495f352bb0af10d11f068fa46e1e29/guava-io-r03.jar" />
-          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-asm/3.2.0.M1/jar/4a0ea87174b937bde6a82f5233663910964a29ae/spring-asm-3.2.0.M1.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-core/3.2.0.M1/jar/2a583f83d0baa163bab7766ee42fe0fd650ed5b8/spring-core-3.2.0.M1.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-beans/3.2.0.M1/jar/c1112f071bc632eddeaaf73044a71e6efbdbfb60/spring-beans-3.2.0.M1.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-aop/3.2.0.M1/jar/9bb032b78ae3433f676bc2995ce4aba6c708c967/spring-aop-3.2.0.M1.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.springframework/spring-expression/3.2.0.M1/jar/913bdf13b0a13128c8ef33cc417a315192a63ceb/spring-expression-3.2.0.M1.jar" />
           <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/com.google.guava/guava-annotations/r03/jar/4898719420a0e946ad0772c5c2c61111999c78c2/guava-annotations-r03.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.codehaus.jackson/jackson-core-asl/1.9.9/jar/b198f9d20dcc5bd2fe211e10f4110639b8243d6/jackson-core-asl-1.9.9.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/artifacts-13/filestore/org.codehaus.jackson/jackson-mapper-asl/1.9.9/jar/174678f285c155bea65c76ae9ac302f63b4aece1/jackson-mapper-asl-1.9.9.jar" />
         </element>
         <element id="dir-copy" path="$PROJECT_DIR$/mega-translator-web/src/main/webapp/WEB-INF" />
       </element>

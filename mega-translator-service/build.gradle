@@ -1,6 +1,6 @@
 dependencies {
     compile ("org.springframework:spring-context:3.2.0.M1") {
-        exclude module: "commons-logging:commons-logging"
+        exclude(group: 'commons-logging', module: 'commons-logging')
     }
     compile ('com.google.guava:guava-io:r03')
 }

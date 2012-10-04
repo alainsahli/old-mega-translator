@@ -2,28 +2,18 @@ $(function () {
     $('#dropzone').filedrop({
         url:'/translation/upload',
         paramname:'file',
-        data: {
-            fileSetId: uniqueId()
+        headers: {
+            'Accept' : 'application/json'
         },
         maxFiles: 25,
         dragOver:function () {
-            $('#dropzone').css('background', 'blue');
-        },
-        dragLeave:function () {
-            $('#dropzone').css('background', 'gray');
+            $('#dropzone').css('background', '#EEEFFF');
         },
         drop:function () {
-            $('#dropzone').css('background', 'gray');
+            $('#dropzone').css('background', '#EEEEEE');
         },
-        afterAll:function () {
-            alert('afterAll');
-            $('#dropzone').html('The file(s) have been uploaded successfully!');
+        uploadFinished: function(i, file, response, time) {
+            $('#uploadResult').append('<li>' + response.message + '</li>');
         }
     });
 });
-
-function uniqueId() {
-    var date = new Date;
-    var uniqueId = date.getTime() * Math.random();
-    return uniqueId;
-}
