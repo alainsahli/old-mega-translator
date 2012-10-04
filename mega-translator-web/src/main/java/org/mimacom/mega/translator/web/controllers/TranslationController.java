@@ -28,7 +28,12 @@ public class TranslationController {
 	@ResponseBody
 	public TranslationFileDetails handlePropertyFileUpload(@RequestParam("file") Part file) {
 		ApplicationPart applicationPart = null;
-		if (file instanceof ApplicationPart) {
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+        }
+        if (file instanceof ApplicationPart) {
 			 applicationPart = (ApplicationPart) file;
 		} else {
 			return new TranslationFileDetails(false, "wrong application server");
