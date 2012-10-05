@@ -4,7 +4,4 @@ var TranslationController = function ($scope) {
     $scope.addMessage = function (response) {
         $scope.messages.push(response.message);
     }
-//    $scope.reverse = function () {
-//        $scope.name = $scope.name.split("").reverse().join("");
-//    }
 };

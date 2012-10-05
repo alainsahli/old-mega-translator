@@ -10,5 +10,5 @@ public interface TranslationFileService {
 	 * @param fileName
 	 * @param translationFileInputStream
 	 */
-	void addTranslationFile(String fileName, InputStream translationFileInputStream) throws IOException;
+	String addTranslationFile(String fileName, InputStream translationFileInputStream) throws IOException;
 }

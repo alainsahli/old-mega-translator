@@ -39,12 +39,13 @@ public class TranslationController {
 			return new TranslationFileDetails(false, "wrong application server");
 		}
 		if (!(file.getSize() == 0)) {
+			String prefix;
 			try {
-				translationFileService.addTranslationFile(applicationPart.getFilename(), applicationPart.getInputStream());
+				prefix = translationFileService.addTranslationFile(applicationPart.getFilename(), applicationPart.getInputStream());
 			} catch (IOException e) {
 				return new TranslationFileDetails(false, "error");
 			}
-			return new TranslationFileDetails(true, "File is not empty!");
+			return new TranslationFileDetails(true, "Probable prefix: " + prefix);
 		} else {
 			return new TranslationFileDetails(true, "File is empty!");
 		}

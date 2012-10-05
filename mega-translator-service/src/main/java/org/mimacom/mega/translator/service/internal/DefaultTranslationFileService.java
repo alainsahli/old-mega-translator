@@ -11,9 +11,7 @@ import javax.inject.Inject;
 import java.io.*;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 import static com.google.common.base.Strings.isNullOrEmpty;
 
@@ -30,9 +28,82 @@ public class DefaultTranslationFileService implements TranslationFileService {
 	}
 
 	@Override
-	public void addTranslationFile(String fileName, InputStream translationFileInputStream) throws IOException {
+	public String addTranslationFile(String fileName, InputStream translationFileInputStream) throws IOException {
 		Map<String, String> properties = analyzeAndStore(fileName, translationFileInputStream);
+		String probablePrefix = findPrefix(properties);
+		return probablePrefix;
+	}
 
+	private String findPrefix(Map<String, String> properties) {
+		Map<String, Integer> prefixes = new HashMap<String, Integer>();
+		for (String value : properties.values()) {
+			if (value.length() > 3) {
+				String testPrefix = value.substring(0, 3);
+				if (prefixes.containsKey(testPrefix)) {
+					Integer currentValue = prefixes.get(testPrefix);
+					prefixes.put(testPrefix, currentValue + 1);
+				} else {
+					prefixes.put(testPrefix, 1);
+				}
+			}
+		}
+		String probablePrefix = biggestPrefix(prefixes);
+		return searchEntirePrefix(probablePrefix, properties.values());
+	}
+
+	private String searchEntirePrefix(String probablePrefix, Collection<String> properties) {
+		List<String> cleanedList = filterToPrefix(probablePrefix, properties);
+		if (cleanedList.isEmpty()) {
+			return null;
+		}
+
+		String entirePrefix = probablePrefix;
+		boolean canBeMorePrecise = true;
+		String anyPrefix = cleanedList.get(0);
+		int prefixLength = 1;
+
+		while (canBeMorePrecise) {
+			if (prefixLength < anyPrefix.length()) {
+				canBeMorePrecise = allStartsWith(anyPrefix.substring(0, prefixLength), cleanedList);
+				if (canBeMorePrecise) {
+					++prefixLength;
+				}
+			} else {
+				canBeMorePrecise = false;
+			}
+		}
+		return anyPrefix.substring(0, prefixLength - 1);
+	}
+
+	private boolean allStartsWith(String anyPrefix, List<String> elem) {
+		for (String e : elem) {
+			if (!e.startsWith(anyPrefix)) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	private List<String> filterToPrefix(String probablePrefix, Collection<String> properties) {
+		List<String> result = new ArrayList<String>();
+		for (String prefix : properties) {
+			if (prefix.startsWith(probablePrefix)) {
+				result.add(prefix);
+			}
+		}
+		return result;
+	}
+
+	private String biggestPrefix(Map<String, Integer> prefixes) {
+		String biggestPrefix = null;
+		int maxPrefixOccurences = 0;
+		for (String prefix : prefixes.keySet()) {
+			if (prefixes.get(prefix) > maxPrefixOccurences) {
+				biggestPrefix = prefix;
+				maxPrefixOccurences = prefixes.get(prefix);
+			}
+		}
+		return biggestPrefix;
 	}
 
 	private Map<String, String> analyzeAndStore(String fileName, InputStream translationFileInputStream) {

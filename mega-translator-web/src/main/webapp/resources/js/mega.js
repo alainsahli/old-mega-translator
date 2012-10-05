@@ -15,11 +15,14 @@ angular.module('mega', [])
                         $(element).css('background', '#EEEFFF');
                     },
                     drop: function () {
-                        $(element).css('background', '#EEEEEE');
+                        $(element).css('display', 'none');
                     },
                     uploadFinished: function (i, file, response, time) {
                         scope.$eval(attrs.callback)(response);
                         scope.$digest();
+                    },
+                    afterAll: function() {
+
                     }
                 });
             }
