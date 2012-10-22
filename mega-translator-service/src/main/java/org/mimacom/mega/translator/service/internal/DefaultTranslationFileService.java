@@ -5,6 +5,7 @@ import com.google.common.io.Files;
 import org.mimacom.mega.translator.service.PropertyKey;
 import org.mimacom.mega.translator.service.PropertyService;
 import org.mimacom.mega.translator.service.TranslationFileService;
+import org.mimacom.mega.translator.service.dto.PropertyFileData;
 import org.springframework.stereotype.Service;
 
 import javax.inject.Inject;
@@ -28,10 +29,13 @@ public class DefaultTranslationFileService implements TranslationFileService {
 	}
 
 	@Override
-	public String addTranslationFile(String fileName, InputStream translationFileInputStream) throws IOException {
+	public PropertyFileData addTranslationFile(String fileName, InputStream translationFileInputStream) throws IOException {
+		PropertyFileData propertyFileData = new PropertyFileData();
+		propertyFileData.setFileName(fileName);
 		Map<String, String> properties = analyzeAndStore(fileName, translationFileInputStream);
 		String probablePrefix = findPrefix(properties);
-		return probablePrefix;
+		propertyFileData.setPrefix(probablePrefix);
+		return propertyFileData;
 	}
 
 	private String findPrefix(Map<String, String> properties) {

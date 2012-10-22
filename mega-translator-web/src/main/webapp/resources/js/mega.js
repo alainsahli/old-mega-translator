@@ -5,7 +5,7 @@ angular.module('mega', [])
             link: function (scope, element, attrs, controller) {
                 $(element).filedrop({
                     url: '/translation/upload',
-                    queuefiles: 1,
+                    queuefiles: 10,
                     paramname: 'file',
                     headers: {
                         'Accept': 'application/json'
@@ -18,11 +18,12 @@ angular.module('mega', [])
                         $(element).css('display', 'none');
                     },
                     uploadFinished: function (i, file, response, time) {
-                        scope.$eval(attrs.callback)(response);
+                        scope.$eval(attrs.afterEachCallback)(response);
                         scope.$digest();
                     },
                     afterAll: function() {
-
+                        scope.$eval(attrs.afterAllCallback)();
+                        scope.$digest();
                     }
                 });
             }

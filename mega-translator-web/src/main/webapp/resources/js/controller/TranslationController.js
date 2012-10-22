@@ -1,7 +1,10 @@
 var TranslationController = function ($scope) {
-    $scope.name = 'Pedro';
-    $scope.messages = [];
-    $scope.addMessage = function (response) {
-        $scope.messages.push(response.message);
+    $scope.savePart = false;
+    $scope.uploadedFileResults = [];
+    $scope.addFileResult = function (response) {
+        $scope.uploadedFileResults.push(response);
+    };
+    $scope.showSavePart = function () {
+        $scope.savePart = true;
     }
 };

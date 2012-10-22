@@ -1,7 +1,10 @@
 package org.mimacom.mega.translator.service;
 
+import org.mimacom.mega.translator.service.dto.PropertyFileData;
+
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 public interface TranslationFileService {
 
@@ -10,5 +13,5 @@ public interface TranslationFileService {
 	 * @param fileName
 	 * @param translationFileInputStream
 	 */
-	String addTranslationFile(String fileName, InputStream translationFileInputStream) throws IOException;
+	PropertyFileData addTranslationFile(String fileName, InputStream translationFileInputStream) throws IOException;
 }

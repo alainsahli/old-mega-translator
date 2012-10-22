@@ -9,3 +9,12 @@
     font-size: 25px;
     text-align: center;
 }
+
+.show-cell {
+    background-color: #eeeeee;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    padding-top: 9px;
+    margin-bottom: 20px;
+}

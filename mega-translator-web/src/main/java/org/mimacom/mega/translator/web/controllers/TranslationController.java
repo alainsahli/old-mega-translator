@@ -2,6 +2,7 @@ package org.mimacom.mega.translator.web.controllers;
 
 import org.apache.catalina.core.ApplicationPart;
 import org.mimacom.mega.translator.service.TranslationFileService;
+import org.mimacom.mega.translator.service.dto.PropertyFileData;
 import org.mimacom.mega.translator.service.internal.TranslationFileDetails;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -28,26 +29,31 @@ public class TranslationController {
 	@ResponseBody
 	public TranslationFileDetails handlePropertyFileUpload(@RequestParam("file") Part file) {
 		ApplicationPart applicationPart = null;
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
-        }
         if (file instanceof ApplicationPart) {
 			 applicationPart = (ApplicationPart) file;
 		} else {
-			return new TranslationFileDetails(false, "wrong application server");
+			TranslationFileDetails translationFileDetails = new TranslationFileDetails();
+			translationFileDetails.setSuccess(false);
+			translationFileDetails.setMessage("Wrong application server");
+			return translationFileDetails;
 		}
 		if (!(file.getSize() == 0)) {
 			String prefix;
+			PropertyFileData propertyFileData = null;
 			try {
-				prefix = translationFileService.addTranslationFile(applicationPart.getFilename(), applicationPart.getInputStream());
+				propertyFileData = translationFileService.addTranslationFile(applicationPart.getFilename(), applicationPart.getInputStream());
 			} catch (IOException e) {
-				return new TranslationFileDetails(false, "error");
+				TranslationFileDetails translationFileDetails = new TranslationFileDetails();
+				translationFileDetails.setSuccess(false);
+				translationFileDetails.setMessage("Internal error");
+				return translationFileDetails;
 			}
-			return new TranslationFileDetails(true, "Probable prefix: " + prefix);
+			return new TranslationFileDetails(propertyFileData);
 		} else {
-			return new TranslationFileDetails(true, "File is empty!");
+			TranslationFileDetails translationFileDetails = new TranslationFileDetails();
+			translationFileDetails.setSuccess(false);
+			translationFileDetails.setMessage("File was empty");
+			return translationFileDetails;
 		}
 	}
 }
