@@ -1,5 +1,5 @@
 /.gradle/*
-/build/*
+build/
 /out/*
 /apache-tomcat-7.0.29/*
 /store/*
